@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CreditosUniversitarios</title>
+    <script type="text/javascript">
+        let ciudad = prompt("Introduce la ciudad en la que se encuentra la Universidad");
+
+        switch(ciudad.toUpperCase()){
+            case "MADRID":
+            case "MURCIA":
+                alert("Se convalidaran 30 creditos");
+                break;
+            case "ALICANTE":
+                alert("No se convalidaran creidos");
+                break;
+            case "VALENCIA":
+            case "GRANADA":
+            case "CORDOBA":
+                alert("Se convalidan 50 creditos");
+                break;
+            default:
+                alert("No ha introducido una ciudad correcta");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
